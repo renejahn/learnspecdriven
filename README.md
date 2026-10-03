@@ -11,7 +11,7 @@ Requires Python 3.9+.
 # or: python3 serve.py
 ```
 
-Open http://localhost:8000. Override the port with `PORT=9000 ./serve.sh`.
+Your default browser opens automatically at http://localhost:8000. For headless environments or if you do not want the browser opened, use `NO_BROWSER=1 ./serve.sh`. Override the port with `PORT=9000 ./serve.sh`.
 
 ## Learn
 
@@ -28,3 +28,7 @@ The site includes six lessons, a workflow map, a practical example, a reusable s
 - `AGENTS.md` — guidance for coding agents
 
 No install or build step required. The server is intended for **local development**, not production deployment.
+
+## Source-backed learning
+
+Lesson-specific links appear beneath each lesson. The workflow is explicitly a Spec Kit-inspired example, not a universal or independently proven standard. The [research notes](docs/references.md) distinguish documented tool behavior from recommended engineering practices.
